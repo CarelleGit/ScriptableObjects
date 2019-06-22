@@ -4,16 +4,25 @@ using UnityEngine;
 
 public class SkillTree : MonoBehaviour
 {
-    public List<Skills> skills;
+    public Skills skills;
+    PlayerInfo playerInfo;
     // Use this for initialization
     void Start()
     {
-
+        playerInfo = GetComponent<PlayerInfo>();
+        playerInfo.playerLevel += LevelUp;
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+    void LevelUp(int level)
+    {
+        if(level >= skills.level)
+        {
+            skills.unlockable = true;
+        }
     }
 }

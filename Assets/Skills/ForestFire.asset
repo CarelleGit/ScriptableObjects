@@ -9,15 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5555063da8e9e7344830cbcabee8b979, type: 3}
-  m_Name: Explosion
+  m_Name: ForestFire
   m_EditorClassIdentifier: 
-  skillName: Explosion
+  skillName: Forest Fire
   skillIcon: {fileID: 0}
-  manacosts: 100
-  skillButton: {fileID: 114057444413803538, guid: b9bc2fa8122fbbf4e83484adf8528014,
+  manacosts: 10
+  skillButton: {fileID: 114285795343714708, guid: e2e578c1d7273fa44af5372499679b18,
     type: 2}
-  level: 5
-  SkillRequired:
-  - Fire Ball
+  level: 2
+  SkillRequired: []
   unlockable: 0
   unlcoked: 0

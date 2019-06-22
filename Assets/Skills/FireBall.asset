@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5555063da8e9e7344830cbcabee8b979, type: 3}
   m_Name: FireBall
   m_EditorClassIdentifier: 
-  skillName: Fire Ball
+  skillName: FireBall
   skillIcon: {fileID: 0}
-  manacosts: 20
-  skillButton: {fileID: 114129784500668810, guid: 4591b61162b33ee41a3d68bdab26f29a,
+  manacosts: 10
+  skillButton: {fileID: 114057444413803538, guid: b9bc2fa8122fbbf4e83484adf8528014,
     type: 2}
   level: 1
   SkillRequired: []
